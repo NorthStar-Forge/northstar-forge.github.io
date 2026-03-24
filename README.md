@@ -4,10 +4,9 @@ Public site for **NorthStar Forge** at [https://northstar-forge.github.io/](http
 
 ## One-time GitHub setup
 
-1. **Create the GitHub account or organization** with handle **`northstar-forge`** (required for this exact URL).  
-   If the name is taken, pick another handle; your site URL will be `https://<that-handle>.github.io/`.
+1. **Create a GitHub organization** whose **login** resolves to the hostname you want. This project uses org **`NorthStar-Forge`** on GitHub; the public site URL is still **`https://northstar-forge.github.io/`** (GitHub lowercases the Pages hostname).
 
-2. On GitHub, create a **new public repository** named exactly **`northstar-forge.github.io`** (under the `northstar-forge` account).
+2. On GitHub, create a **new public repository** named exactly **`northstar-forge.github.io`** under that org (already done for NorthStar Forge).
 
 3. **Push this folder** (from your machine):
 
@@ -17,7 +16,7 @@ Public site for **NorthStar Forge** at [https://northstar-forge.github.io/](http
    git branch -M main
    git add .
    git commit -m "Initial NorthStar Forge site"
-   git remote add origin https://github.com/northstar-forge/northstar-forge.github.io.git
+   git remote add origin https://github.com/NorthStar-Forge/northstar-forge.github.io.git
    git push -u origin main
    ```
 
